@@ -26,5 +26,6 @@ Building enterprise-grade systems with a focus on performance, scalability, and 
 ### 📫 Connect with me:
 - [LinkedIn](https://www.linkedin.com/in/nasir-hussain-4254832a8/)
 - [Portfolio](https://nasirhussain568.github.io/my-portfolio/)
+- [Work Detealies](https://github.com/Nasirhussain568/enterprise-backend-architecture/)
 
 *"Clean code always looks like it was written by someone who cares."*
