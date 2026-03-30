@@ -14,13 +14,6 @@ Building enterprise-grade systems with a focus on performance, scalability, and 
 - **Backend:** Node.js, Express, NestJS
 - **Database:** Prisma ORM, Firebird SQL, PostgreSQL, MongoDB
 - **Tools:** Git, GitHub Actions, Docker, Trello (Agile/Scrum)
-
----
-
-### 📈 GitHub Stats:
-![Nasir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nasirhussain568&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nasirhussain568&layout=compact&theme=dark)
-
 ---
 
 ### 📫 Connect with me:
