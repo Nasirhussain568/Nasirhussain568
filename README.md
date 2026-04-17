@@ -9,8 +9,8 @@ I bridge the gap between robust server-side logic and seamless, high-performance
 
 **Frontend (Focus Area):**
 - ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-- **State Management:** Redux Toolkit (Slices, Thunks), Context API
-- **Styling:** Less (CSS Modules), Responsive Design, Flexbox/Grid
+- **State Management:** Redux Toolkit (Slices, Thunks), Redux-Saga, Context API
+- **Styling:** Less (CSS Modules), Ant Design, Responsive Design, Flexbox/Grid
 - **Architecture:** Component-based UI, Atomic Design, Asset Management
 
 **Backend & Database:**
@@ -25,25 +25,32 @@ I bridge the gap between robust server-side logic and seamless, high-performance
 
 ### 👨‍💻 Currently Working On
 
-#### 📦 Enterprise Stock Management System (Full Stack)
-- **Frontend:** Building dynamic dashboards using **Next.js** and **Redux** for real-time inventory tracking.
-- **Styling:** Implementing structured styling using **Less Modules** for scalable UI components.
-- **Backend:** Integrating Node.js with legacy **Firebird SQL** databases via Prisma.
+#### 📦 Enterprise Frontend Architecture Case Study 🎨
+**Repository Link:** [https://github.com/Nasirhussain568/enterprise-feontend-architecture](https://github.com/Nasirhussain568/enterprise-feontend-architecture)
 
-#### 🫀 Cardiac Output Healthcare Suite
-- **Frontend:** Developing high-performance data visualization components for medical metrics.
-- **State:** Managing complex health data streams using **Redux Toolkit**.
-- **Backend:** High-concurrency data processing using NestJS.
+I architected and engineered a reactive, state-driven dashboard for large-scale enterprise inventory oversight. Key technical implementations include:
+
+*   **UI/UX Design Engineering:** 
+    *   Implemented a fluid CSS Grid architecture with column standardization (**Stock Code: 12%, Expiry: 10%, Status: 15%**) for pixel-perfect consistency.
+    *   Corrected fixed-header misalignment in **Ant-Design** tables by enforcing `tableLayout="fixed"` and strict percentage constraints.
+    *   Integrated **Corporate Brand Accents (#ED017F)** across headers and interactive elements.
+*   **Advanced State Management (Redux & Sagas):** 
+    *   Engineered real-time state listeners for Variance Reports, enabling **automatic UI hydration** post-edit without manual page refreshes.
+    *   Orchestrated non-blocking data fetching via **Redux-Saga** to maintain a smooth UI thread during heavy API payloads.
+*   **Navigation & Deep-Linking:** 
+    *   Resolved critical navigation deadlocks by decoupling component loading states from validation logic.
+    *   Developed a **Contextual Deep-Linking** routing system where clicking a browser notification automatically directs users to specific record entries.
+*   **Notification Ecosystem:** Developed a comprehensive suite including `NotificationBell`, `NotificationList`, and `NotificationModal` for real-time system feedback.
 
 ---
 
 ### 📁 Project Structure I Follow
 I organize my frontend files for maximum maintainability:
-- `components/`: Reusable UI atoms and molecules.
-- `store/`: Redux slices and global state configuration.
+- `components/`: Reusable UI atoms and molecules (Notification, Calendar, Spinners).
+- `modules/`: Feature-specific sections (User Management, Stock Tracking, Lab Setup).
+- `store/`: Redux slices, actions, and global saga configurations.
 - `styles/`: Global styles and `.less` module definitions.
-- `public/assets/`: Optimized images, icons, and static files.
-- `pages/` or `app/`: Next.js routing and server-side logic.
+- `routes/`: Routing logic and deep-linking navigation paths.
 
 ---
 
@@ -51,7 +58,5 @@ I organize my frontend files for maximum maintainability:
 <p align="left">
 <a href="https://www.linkedin.com/in/nasir-hussain-4254832a8/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://nasirhussain568.github.io/my-portfolio/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"></a>
-<a href="https://github.com/Nasirhussain568/enterprise-backend-architecture/" target="_blank"><img src="https://img.shields.io/badge/Work_Details-FFCA28?style=for-the-badge&logo=GitHub&logoColor=black" alt="Work Details"></a>
+<a href="https://github.com/Nasirhussain568/enterprise-backend-architecture/" target="_blank"><img src="https://img.shields.io/badge/Backend_Repo-FFCA28?style=for-the-badge&logo=GitHub&logoColor=black" alt="Work Details"></a>
 </p>
-
-*"Clean code always looks like it was written by someone who cares."*
