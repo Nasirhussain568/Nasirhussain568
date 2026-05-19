@@ -7,7 +7,7 @@ I bridge the gap between robust server-side logic and seamless, high-performance
 
 ### 🛠️ Tech Stack & Tools
 
-**Frontend (Focus Area):**
+**Frontend (Focused Area):**
 - ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 - **State Management:** Redux Toolkit (Slices, Thunks), Redux-Saga, Context API
 - **Styling:** Less (CSS Modules), Ant Design, Responsive Design, Flexbox/Grid
