@@ -1,4 +1,4 @@
-# Hi there, I'm Nasir Hussain 👋
+# Hi there, I'm Nasir Hussain Balti 👋
 
 ### 🚀 Full Stack Developer | Specialized in Backend & Modern Frontend Architectures
 I bridge the gap between robust server-side logic and seamless, high-performance user interfaces. Currently focusing on scaling enterprise applications with **Next.js** and **Redux**.
